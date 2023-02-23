@@ -1,0 +1,373 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* common */
+.container {
+  width: calc(100% - 100px);
+  margin: auto;
+}
+.sidebar-container {
+  width: 50%;
+  margin: auto;
+}
+a {
+  color: #ffffff;
+}
+
+/* home page */
+.home {
+  background: #0e031d;
+}
+
+/* header */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+  gap: 10px;
+}
+.header-menu {
+  display: flex;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+.header-menu a {
+  color: #ffffff;
+}
+.logo {
+  width: 98px;
+  height: 98px;
+}
+.social-icon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.social-icon-item {
+  width: 60px;
+  height: 60px;
+}
+
+/* hero */
+.hero {
+  color: #ffffff;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  background-color: #491b87;
+  padding: 90px;
+  border-radius: 100px;
+  box-shadow: 0 0 99px #aa68ff;
+  border: 1px solid #ffffff;
+  margin-top: 129px;
+  line-height: 21px;
+}
+.hero-title {
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+.hero-create-btn {
+  padding: 20px 55px;
+  background-color: #aa68ff;
+  width: 194px;
+  border-radius: 100px;
+  margin: 50px auto 20px auto;
+  cursor: pointer;
+}
+.hero-join-waitlist {
+  cursor: pointer;
+}
+
+/* footer */
+.footer-bg {
+  background-image: url("../images/planetbg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: -250px 0;
+}
+.footer-main {
+  color: #ffffff;
+  width: 50%;
+  text-align: center;
+}
+
+.footer-title {
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 50px;
+}
+.social-icon__footer {
+  justify-content: center;
+  margin-top: 50px;
+}
+.footer-menu {
+  display: flex;
+  gap: 40px;
+  justify-content: space-evenly;
+  font-size: 20px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.footer-des {
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 50px;
+}
+.footer-copyright {
+  font-size: 14px;
+  line-height: 24px;
+  padding: 50px 0;
+}
+
+/* login */
+.login-title {
+  font-size: 40px;
+  margin-bottom: 54px;
+}
+
+.login-input {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 90%;
+  padding: 20px 30px;
+  border-radius: 100px;
+  border: none;
+  outline: 0;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #ffffff;
+}
+.login-input::placeholder {
+  color: #ffffff;
+}
+
+.login-btn {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.login-forgotpass {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.hero-create-btn__login {
+  margin: 0;
+  color: #ffffff;
+}
+
+.hero-create-btn__login-create {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* sidebar */
+.sidebar {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+.sidebar-main {
+  padding: 20px 60px 20px 20px;
+  background: #491b87;
+  overflow-y: scroll;
+}
+.sidebar-shape {
+  display: grid;
+  gap: 10px;
+  margin-top: 68px;
+}
+
+.sidebar-shape-items {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar-body {
+  width: 100%;
+  background: #000;
+  padding: 40px 30px 150px 30px;
+  color: #fff;
+}
+.sidebar-header-config-btn{
+  cursor: pointer;
+}
+.sidebar-header-right {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.hero-create-btn__sidebar-header {
+  margin: 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sidebar-con-bg {
+  background: #000;
+  width: 30%;
+  overflow-y: scroll;
+}
+
+.sidebar-con-bg::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar-configure {
+  background-color: rgba(149, 78, 241, 0.26);
+  backdrop-filter: blur(48px) brightness(6%);
+  color: #fff;
+  padding: 40px 40px;
+  margin: 10px 0;
+}
+
+.side-con-items {
+  margin-top: 35px;
+  width: 100%;
+}
+
+.side-con-item-input {
+  height: 5px;
+  background-color: rgba(149, 78, 241, 0.26);
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  appearance: none;
+  margin-top: 12px;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  appearance: none;
+  height: 5px;
+  background-color: rgba(149, 78, 241, 0.5);
+}
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-image: url("../images/range.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-top: -12px;
+}
+
+
+/* take picture */
+.takepicture {
+  text-align: center;
+  color: #ffffff;
+  margin: 97px auto 0 auto;
+}
+.take-pic-title {
+  font-size: 40px;
+}
+
+.take-pic-des {
+  font-size: 16px;
+  margin: 24px auto 50px auto;
+}
+
+.takepic-qr {
+  width: 50%;
+}
+
+/* choose gender */
+.choose-gender-btn {
+  display: flex;
+  gap: 20px;
+}
+
+/* loading */
+.loading {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* avatar */
+.avatar-img {
+  width: 100%;
+  height: 100%;
+}
+
+/* modal */
+.modal {
+  background: #241933;
+  padding: 100px;
+  border-radius: 100px;
+  border: 2px solid #534467;
+  position: fixed;
+  inset: 0;
+  width: 40%;
+  margin: auto;
+  height: 40%;
+  text-align: center;
+  color: #ffffff;
+  overflow-y: scroll;
+}
+.modal-cross {
+  position: absolute;
+  right: 100px;
+  cursor: pointer;
+}
+.modal::-webkit-scrollbar {
+  display: none;
+}
+
+.modal-title {
+  font-size: 40px;
+  margin-top: 39px;
+}
+
+.modal-input {
+  margin-top: 40px;
+}
+.login-input__modal {
+  background: #473c54;
+}
+.login-input__modal::placeholder {
+  color: #fff;
+}
+.modal-address-btn {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.hero-create-btn__modal {
+  margin: 0;
+}
+
+.modal-tos {
+  font-size: 14px;
+  color: #776292;
+  margin-top: 40px;
+}
+
+.modal-tos-w {
+  color: #fff;
+  cursor: pointer;
+}
+
+.modal-bg-opacity {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  opacity: 50%;
+  z-index: -10;
+}

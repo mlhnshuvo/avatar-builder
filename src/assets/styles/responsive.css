@@ -1,0 +1,84 @@
+/* Extra small devices */
+@media only screen and (max-width: 360px) {
+  .container {
+    width: calc(100% - 10px);
+  }
+  .header {
+    justify-content: center;
+  }
+  .header-menu {
+    justify-content: center;
+    gap: 20px;
+  }
+  .social-icon {
+    justify-content: center;
+  }
+  .hero {
+    padding: 20px;
+    width: 70%;
+  }
+  .footer-title {
+    font-size: 25px;
+  }
+  .footer-menu {
+    gap: 10px;
+  }
+  .sidebar-container {
+    width: 100%;
+  }
+  .sidebar-header{
+    flex-wrap: wrap;
+  }
+  .choose-gender-btn {
+    flex-wrap: wrap;
+  }
+  .hero-create-btn__choose-gender {
+    margin: 0;
+  }
+}
+
+/* Small devices */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: calc(100% - 20px);
+    margin: auto;
+  }
+  .hero-create-btn {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .hero-title {
+    line-height: 40px;
+  }
+  .hero-create-btn__sidebar-header {
+    padding: 10px 20px;
+  }
+  .modal-cross {
+    right: 50px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .login-input {
+    width: 100%;
+    padding: 20px 5px;
+  }
+  .login-btn {
+    flex-wrap: wrap;
+  }
+  .login-title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .sidebar-container {
+    width: 70%;
+  }
+  .modal-address-btn{
+    flex-wrap: wrap;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+}
