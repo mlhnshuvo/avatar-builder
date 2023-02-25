@@ -5,6 +5,7 @@ import Login from "../pages/Login";
 import TakePic from "../pages/TakePic";
 import ChooseGender from "../pages/ChooseGender";
 import AvatarCreator from "../pages/AvatarCreator";
+import GetStarted from "../pages/GetStarted";
 
 const Router = () => {
   return (
@@ -15,6 +16,7 @@ const Router = () => {
         <Route path="takepicture" element={<TakePic />} />
         <Route path="choosegender" element={<ChooseGender />} />
         <Route path="avatarcreator" element={<AvatarCreator />} />
+        <Route path="getstarted" element={<GetStarted />} />
       </Routes>
     </BrowserRouter>
   );
